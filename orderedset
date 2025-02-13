@@ -61,7 +61,8 @@ int main() {
     else{
         cout<<"7 is present in the set \n";
     }
-    
+
+// st.count(x) has no meaning here as every element can only be present once at max so use st.find() instead
     
     return 0;
 }
